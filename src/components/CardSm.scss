@@ -1,0 +1,40 @@
+.card-sm{
+  width: 100%;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 50);
+  margin-bottom: 2em;
+  .date{
+    span{
+      margin-right: 10px;
+      i{
+        font-size: 0.8em;
+        color: white;
+      }
+    }
+    span{
+      p{
+        font-size: 0.9em !important;
+        color: white !important;
+        margin-top: 2px;
+      }
+    }
+  }
+  .title{
+    p{
+      color: #bac964;
+      font-size: 1.2em;
+    }
+  }
+  .description{
+    p{
+      color: var(--light-gray);
+    }
+  }
+  .subtitle{
+    p{
+      color: var(--light-gray);
+      font-size: 0.9em;
+    }
+  }
+}

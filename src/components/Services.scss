@@ -1,0 +1,23 @@
+.services{
+  padding: 5em 0em;
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text1{
+      font-size: 2.2em;
+      margin-right: 10px;
+      color: white;
+    }
+    .text2{
+      font-size: 2.5em;
+      font-weight: 900;
+      color: white;
+    }
+  }
+  .wrapper{
+    .services-container{
+      width: 90%;
+    }
+  }
+}

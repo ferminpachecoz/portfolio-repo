@@ -1,0 +1,61 @@
+.contact{
+  padding: 5em 0em;
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text1{
+      font-size: 2.2em;
+      margin-right: 10px;
+      color: white;
+    }
+    .text2{
+      font-size: 2.5em;
+      font-weight: 900;
+      color: white;
+    }
+  }
+  .get-in-touch{
+    padding: 2em;
+    .input-container{
+      margin-bottom: 1em;
+      input, textarea{
+        width: 100%;
+        padding: 0.7em;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: rgb(50, 50, 50);
+        color: white;
+      }
+    }
+    .button-container{
+      .button-send{
+        border-radius: 25px;
+        padding: 1em 2em;
+        border: none;
+        background-color: var(--olive);
+        color: black;
+      }
+      .button-send:hover{
+        background-color: var(--olive-hover);
+      }
+    }
+  }
+  .title-sm{
+    color: white;
+    font-size: 2em;
+  }
+  .contact-details{
+    padding: 2em;
+    .content{
+      .label{
+        color: var(--olive);
+        font-size: 1.1em;
+      }
+      .text{
+        color: var(--light-gray);
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.about-me{
+  padding: 5em 0em;
+  .image{
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    height: 400px;
+  }
+  .content{
+    padding: 2em;
+    .title{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .text1{
+        font-size: 2.4em;
+        margin-right: 10px;
+        color: white;
+      }
+      .text2{
+        font-size: 2.5em;
+        font-weight: 900;
+        color: white;
+      }
+    }
+    .description{
+      p{
+        color: var(--light-gray);
+        font-size: 1.2em;
+      }
+    }
+    .alternative-text{
+      p{
+        color: var(--light-gray);
+        font-size: 0.9em;
+      }
+    }
+    .button-container{
+      button{
+        border: none;
+        border-radius: 20px;
+        padding: 0.5em 2em;
+        text-transform: uppercase;
+        a{
+          color: white;
+        }
+        transition: 0.5s;
+      }
+      button:hover{
+        transform: scale(1.1);
+      }
+      .hire-me{
+        background-color: #bac964;
+        margin-right: 2em;
+      }
+      .download{
+        background-color: var(--light-gray);
+      }
+    }
+    
+  }
+}
