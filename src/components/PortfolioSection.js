@@ -13,28 +13,28 @@ export default function PortfolioSection() {
         <div className='wrapper'>
           <div className='row row-cols-1 row-cols-lg-3 gy-5'>
             <Card 
-            img="images/lv-min-web.png" 
+            img="/preview/ferminpacheco.site/images/lv-min-web.png" 
             title="louis vuitton" 
             category="e-commerce" 
             url="https://my-tienda-online.herokuapp.com/"  
             />
 
             <Card 
-            img="images/ds-min-web.png" 
+            img="/preview/ferminpacheco.site/images/ds-min-web.png" 
             title="service." 
             category="landing page" 
             url="https://dental-landing-page.herokuapp.com/"  
             />
 
             <Card 
-            img="images/lm-min-web.png" 
+            img="/preview/ferminpacheco.site/images/lm-min-web.png" 
             title="Le Marche" 
             category="e-commerce" 
             url="https://le-marche.herokuapp.com/"  
             />
 
             <Card 
-            img="images/cb-min-web.png" 
+            img="/preview/ferminpacheco.site/images/cb-min-web.png" 
             title="CloB" 
             category="e-commerce" 
             url="https://clob-tienda.herokuapp.com/"  

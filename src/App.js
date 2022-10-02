@@ -4,7 +4,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <Routes>
-      <Route exact path='/' element={<Home />} />
+      <Route exact path='/preview/ferminpacheco.site/' element={<Home />} />
     </Routes>
   );
 }

@@ -3,7 +3,7 @@ import './MainBanner.scss';
 
 export default function MainBanner() {
   return (
-    <div className='main-banner' style={{backgroundImage: "url('images/main-banner.jpg')"}}>
+    <div className='main-banner' style={{backgroundImage: "url('/preview/ferminpacheco.site/images/main-banner.jpg')"}}>
       <div className='shadow'>
         <span className='subtitle'><p>Hello I'm</p></span>
         <span className='title'><h1>Fermin Pacheco Zapiola</h1></span>
