@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/css/main.e29b6318.css",
+    "main.js": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/main.b94e0beb.js",
+    "static/js/787.c4e7f8f9.chunk.js": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "https://179.61.219.130:8090/preview/ferminpacheco.site/index.html",
+    "main.e29b6318.css.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/css/main.e29b6318.css.map",
+    "main.b94e0beb.js.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/main.b94e0beb.js.map",
+    "787.c4e7f8f9.chunk.js.map": "https://179.61.219.130:8090/preview/ferminpacheco.site/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e29b6318.css",
+    "static/js/main.b94e0beb.js"
+  ]
+}
