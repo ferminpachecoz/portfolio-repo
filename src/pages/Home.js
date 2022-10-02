@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import MainBanner from '../components/MainBanner';
 import Header from '../layout/Header';
 import PortfolioSection from '../components/PortfolioSection';
@@ -14,6 +14,12 @@ export default function Home() {
   const display = () =>{
     setModal(!modal)
   }
+  useEffect(()=>{
+    fetch('https://179.61.219.130:8090/preview/fpz-server.com/fetch')
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .then(err => console.error(err))
+  })
   return (
     <>
       {modal &&
