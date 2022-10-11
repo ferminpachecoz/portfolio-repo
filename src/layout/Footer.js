@@ -10,8 +10,8 @@ export default function Footer() {
       <div className='footer-icons'>
         <a href="#"><i className="bi bi-facebook"></i></a>
         <a href="#"><i className="bi bi-twitter"></i></a>
-        <a href="#"><i className="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/fermin-pacheco-zapiola"><i className="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/ferchopacheco/" target="_blank"><i className="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/fermin-pacheco-zapiola" target="_blank"><i className="bi bi-linkedin"></i></a>
       </div>
     </div>
   )

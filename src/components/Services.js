@@ -29,8 +29,8 @@ export default function Services() {
   return (
     <div className='services' id='services'>
       <div className='title'>
-        <p className='text1'>My</p>
-        <p className='text2'>Services</p>
+        <p className='text1'>Mis</p>
+        <p className='text2'>Servicios</p>
       </div>
       <div className='wrapper d-flex justify-content-center'>
         <div className='services-container row row-cols-1 row-cols-md-3 g-4'>

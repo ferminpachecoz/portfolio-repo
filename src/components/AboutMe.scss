@@ -3,7 +3,9 @@
   .image{
     width: 80%;
     margin: 0 auto;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 400px;
   }
   .content{

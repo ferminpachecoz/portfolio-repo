@@ -24,39 +24,39 @@ export default function Contact({display}) {
   return (
     <div className='contact' id='contact'>
       <div className='title'>
-        <p className='text1'>Get</p>
-        <p className='text2'>In Touch</p>
+        <p className='text1'>Póngase</p>
+        <p className='text2'>En Contacto</p>
       </div>
       <div className='d-flex flex-column flex-md-row'>
         <div className='col-12 col-md-6 get-in-touch' data-aos="fade-right" data-aos-duration="1500">
-          <div className='title-sm'><p>Get In Touch</p></div>
+          <div className='title-sm'><p>Contactar</p></div>
           <form ref={form} onSubmit={sendEmail}>
             <div className='input-container'>
-              <input type="text" placeholder='Your Name' name='name' />
+              <input type="text" placeholder='Tu Nombre' name='name' />
             </div>
             <div className='input-container'>
-              <input type="text" placeholder='Your Email' name='email' />
+              <input type="text" placeholder='Tu Email' name='email' />
             </div>
             <div className='input-container'>
-              <input type="text" placeholder='Your Phone' name='phone' />
+              <input type="text" placeholder='Tu Telefono' name='phone' />
             </div>
             <div className='input-container'>
-              <textarea name='message' cols="30" rows="10" placeholder='Write a Message' />
+              <textarea name='message' cols="30" rows="10" placeholder='Escribe un mensaje...' />
             </div>
             <div className='d-flex justify-content-center my-4 button-container'>
-              <button type='submit' className='button-send'>Send Message</button>
+              <button type='submit' className='button-send'>Enviar Mensaje</button>
             </div>
           </form>
         </div>
         <div className='col-12 col-md-6 contact-details' data-aos="fade-left" data-aos-duration="1500">
-          <div className='title-sm'><p>My Contact Details</p></div>
+          <div className='title-sm'><p>Detalles de Contacto</p></div>
           <div className='content'>
             <div>
               <p className='label'>Email</p>
               <p className='text'>ferminpacheco87@gmail.com</p>
             </div>
             <div>
-              <p className='label'>Phone</p>
+              <p className='label'>Teléfono</p>
               <p className='text'>11-6110-7112</p>
             </div>
             <div>
@@ -64,10 +64,10 @@ export default function Contact({display}) {
               <p className='text'>+30 976 1382 9922</p>
             </div>
             <div>
-              <p className='label'>Adress</p>
+              <p className='label'>Dirección</p>
               <p className='text'>Argentina</p>
               <p className='text'>Provincia de Buenos Aires</p>
-              <p className='text'>Tigre, Escalada 1200</p>
+              <p className='text'>Zona Norte, Tigre</p>
             </div>
           </div>
         </div>

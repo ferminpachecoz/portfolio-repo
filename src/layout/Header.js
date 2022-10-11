@@ -19,10 +19,10 @@ export default function Header() {
     <div className={`header ${navbar?"active":""}`}>
       <ul className='header-nav'>
         <li><a href="#">home</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="#">resume</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#resume">curriculum</a></li>
+        <li><a href="#about-me">sobre mi</a></li>
+        <li><a href="#contact">contacto</a></li>
       </ul>
       <span className='menu' onClick={()=>setMenu(!menu)}><i className="bi bi-list"></i></span>
       {menu &&
@@ -30,9 +30,9 @@ export default function Header() {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">curriculum</a></li>
+            <li><a href="#about-me">sobre mi</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
       }

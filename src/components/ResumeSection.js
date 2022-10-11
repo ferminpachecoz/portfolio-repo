@@ -19,13 +19,13 @@ export default function ResumeSection() {
   ]
   let experience = [
     {
-      date: "April 2022 - Present",
+      date: "Abril 2022 - Present",
       title: "Diseñador Web",
       subtitle: "Freelance",
       description: "Trabajo en el mundo del freelance desde principios de 2022 en el area de desarrollo de E-Commerce aportando diseño y funcionalidad."
     },
     {
-      date: "December 2021 - March 2022",
+      date: "Diciembre 2021 - March 2022",
       title: "Desarrollador Web",
       subtitle: "Rednet Corp",
       description: "Desarrollador de sistema de gestion inmobiliario con el fin de acelerar los procesos de registro, mantenimiento y control."
@@ -35,12 +35,12 @@ export default function ResumeSection() {
   return (
     <div className='resume-section' id='resume'>
       <div className='title'>
-        <p className='text1'>My</p>
-        <p className='text2'>Resume</p>
+        <p className='text1'>Mi</p>
+        <p className='text2'>Curriculum</p>
       </div>
       <div className='content d-flex flex-column flex-md-row'>
         <div className='col-12 col-md-6 education'>
-          <span><p>Education</p></span>
+          <span><p>Educación</p></span>
           <div className='d-flex flex-column'>
             {
               education.map((item, i)=>
@@ -56,7 +56,7 @@ export default function ResumeSection() {
           </div>
         </div>
         <div className='col-12 col-md-6 experience'>
-          <span><p>Experience</p></span>
+          <span><p>Experiencia</p></span>
           <div className='d-flex flex-column'>
             {
               experience.map((item, i)=>
