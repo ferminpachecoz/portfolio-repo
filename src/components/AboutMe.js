@@ -9,7 +9,7 @@ export default function AboutMe() {
   return (
     <div className='about-me d-flex flex-column flex-md-row' id='about-me'>
       <div className='col-12 col-md-7' data-aos="fade-right" data-aos-duration="1500">
-        <div className='image' style={{backgroundImage: "url('images/fermin.jpg')"}}>
+        <div className='image' style={{backgroundImage: "url('images/fermin.JPG')"}}>
 
         </div>
       </div>
