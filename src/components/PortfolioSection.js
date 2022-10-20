@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './PortfolioSection.scss';
 import Card from './Card';
 
@@ -38,6 +38,13 @@ export default function PortfolioSection() {
             title="CloB" 
             category="e-commerce" 
             url="https://clob-tienda.herokuapp.com/"  
+            />
+
+            <Card 
+            img="images/idear-tigre.png"
+            title="Idear Tigre"
+            category="Landing Page"
+            url="https://idear-tigre.herokuapp.com/"
             />
 
           </div>
