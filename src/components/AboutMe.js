@@ -19,14 +19,14 @@ export default function AboutMe() {
           <p className='text2'>Mi</p>
         </div>
         <div className='description'>
-          <p>Nací en Buenos Aires, Argentina, y estudié en el Colegio San Esteban.</p>
+          <p>Full Stack Web Developer y estudiante de la licenciatura Negocios Digitales en la Universidad San Andrés</p>
         </div>
         <div className='alternative-text'>
-          <p>Desde muy chico me empezó a gustar el mundo de la programacion mas que nada desde el punto de vista de automatización de procesos. Mi ruta de aprendizaje comenzó con tutoriales en YouTube hasta que decidi hacer un curso.</p>
+          <p>Soy Fermín Pacheco Zapiola, un apasionado desarrollador web con experiencia en diseño y desarrollo de sitios modernos y funcionales. Me especializo en crear soluciones digitales personalizadas que combinan tecnología y creatividad, ayudando a marcas y negocios a destacar en el mundo online. Mi objetivo es brindar un servicio profesional con un enfoque en la calidad y la accesibilidad.</p>
         </div>
         <div className='button-container'>
           <button className='hire-me'><a href="#contact">contratarme</a></button>
-          <button className='download'><a href="CurriculumPdf.pdf" download="FerminPachecoCV">descargar cv</a></button>
+          <button className='download'><a href="Curriculum3.pdf" download="FerminPachecoCV">descargar cv</a></button>
         </div>
       </div>
     </div>

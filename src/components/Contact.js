@@ -53,11 +53,11 @@ export default function Contact({display}) {
           <div className='content'>
             <div>
               <p className='label'>Email</p>
-              <p className='text'>ferminpacheco87@gmail.com</p>
+              <p className='text'>ferminpachecozapiola@gmail.com</p>
             </div>
             <div>
               <p className='label'>Teléfono</p>
-              <p className='text'>11-6110-7112</p>
+              <p className='text'>+54 11 6110-7112</p>
             </div>
             <div>
               <p className='label'>Fax</p>
