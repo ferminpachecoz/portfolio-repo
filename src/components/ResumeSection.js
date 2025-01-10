@@ -5,6 +5,12 @@ import './ResumeSection.scss';
 export default function ResumeSection() {
   let education = [
     {
+      date: "Marzo 2023 - Actual",
+      title: "Licenciatura en Negocios Digitales",
+      description: "Carrera que combina finanzas, economia, programacion y marketing con el fin de gestionar productos digitales.",
+      subtitle: "Universidad San Andrés"
+    },
+    {
       date: "Junio 2021 - Diciembre 2021",
       title: "Desarrollador Web Full Stack",
       description: "Curso de Desarrollo Web Full Stack que abarca tecnologias dentro del Front-End y Back-End.",
